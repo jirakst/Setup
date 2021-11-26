@@ -87,6 +87,7 @@ brew install --cask visual-studio-code
 brew install --cask postman
 brew install --cask slack
 brew install --cask google-chrome
+brew install --cask tor-browser
 brew install --cask spotify
 
 # Trading
