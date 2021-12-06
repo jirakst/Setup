@@ -83,6 +83,7 @@ brew install htop
 # Applications
 brew install --cask commander-one
 brew install --cask github
+brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask postman
 brew install --cask slack
