@@ -90,6 +90,7 @@ brew install --cask slack
 brew install --cask google-chrome
 brew install --cask tor-browser
 brew install --cask spotify
+brew install --cask whatsapp
 
 # Trading
 brew install --cask tradingview
