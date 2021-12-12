@@ -39,6 +39,7 @@ sudo snap install --classic code
 sudo snap install --classic brave
 sudo snap install --classic sublime-text
 sudo snap install --classic slack
+sudo snap install --classic spotify
 
 # Reboot
 reboot
