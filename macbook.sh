@@ -40,37 +40,8 @@ brew install gnu-sed; ln -sfn gsed /usr/local/bin/sed
 brew install coreutils
 brew install nvm
 brew install speedtest-cli
-
-# AWS
-brew install awscli
-brew install aws-iam-authenticator
-sudo pip3 install aws-adfs
-sudo pip3 install aws-sam-cli
-
-# Docker
-brew install --cask docker
-xattr -d com.apple.quarantine /Applications/Docker.app
-open /Applications/Docker.app &
- 
-# Kubernetes
-brew install kubectx
-brew install kubeseal
-brew install kubeless
-brew install octant
-
-# # Terraform
-# brew install terraform
-# brew install warrensbox/tap/tfswitch
-# tfswitch 1.0.0
-# brew install terragrunt --ignore-dependencies
-# brew install tflint
-# brew install packer
-
-# Git
+brew install youtube-dl
 brew install git
-# git config --global credential.helper '!aws codecommit credential-helper $@'
-# git config --global credential.UseHttpPath true
-# git config --global core.autocrlf input
 
 # Applications
 brew install --cask commander-one
