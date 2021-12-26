@@ -39,6 +39,7 @@ brew install broot; broot --install
 brew install gnu-sed; ln -sfn gsed /usr/local/bin/sed
 brew install coreutils
 brew install nvm
+brew install speedtest-cli
 
 # AWS
 brew install awscli
