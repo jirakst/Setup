@@ -1,4 +1,5 @@
 # Dark Mode
+Write-Output 'Enabling Dark Mode'
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name SystemUsesLightTheme -Value 1 -Type Dword -Force  # System level
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0 -Type Dword -Force  # App level
 
@@ -7,7 +8,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 wsl --install # If doesnt work, manually download and install the link below
-echo Download https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+Write-Output 'Download https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi'
 wsl --set-default-version 2
 
 # Install Scoop
