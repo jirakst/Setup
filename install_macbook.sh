@@ -42,6 +42,7 @@ brew install nvm
 brew install speedtest-cli
 brew install youtube-dl
 brew install git
+brew install --cask stats
 
 # Applications
 brew install --cask commander-one
