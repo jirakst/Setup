@@ -12,6 +12,9 @@ killall Finder
 # Homebrew (https://brew.sh)
 echo | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Python
 brew install python3
 sudo pip3 install --upgrade pip
