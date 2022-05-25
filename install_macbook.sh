@@ -22,6 +22,8 @@ ln -sfn pip3 /usr/local/bin/pip
 brew install pyenv
 brew install pyenv-virtualenv
 xcode-select --install
+pip install jupyterthemes
+conda install -c conda-forge jupyterthemes
 
 # Java 11
 brew install java11
